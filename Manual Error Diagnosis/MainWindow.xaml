@@ -1,0 +1,15 @@
+﻿<Window x:Class="Manual_Error_Diagnosis.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Manual_Error_Diagnosis"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ComboBox x:Name="CB1" HorizontalAlignment="Left" Margin="36,35,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="CB1_SelectionChanged"/>
+        <ComboBox x:Name="CB2" HorizontalAlignment="Left" Margin="36,180,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="B1" Content="Button" HorizontalAlignment="Left" Margin="36,331,0,0" VerticalAlignment="Top" Height="56" Width="120"/>
+
+    </Grid>
+</Window>
