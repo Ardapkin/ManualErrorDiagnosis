@@ -32,6 +32,7 @@ namespace Manual_Error_Diagnosis {
         List<Device> deserializedProduct;
         
         public MainWindow() {
+
             InitializeComponent();
             CB1.SelectedIndex = 0;
             CB2.SelectedIndex = 0;
